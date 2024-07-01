@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+p,
+span {
+    font-family: Hanken Grotesk;
+}
+
+.header_div {
+    background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    height: 340px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_title {
+    color: hsl(241, 100%, 89%);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.Circle_score {
+    background: linear-gradient(0deg, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.Circle_par {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: grid;
+    place-content: center;
+}
+
+.Circle_top {
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+}
+
+.Circle_bottom {
+    text-align: center;
+    color: hsla(241, 100%, 89%, 0.452);
+}
+
+.info_title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0 10px 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.info {
+    margin: 0;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    max-width: 297px;
+}
+
+.Summary_div>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    max-width: 90%;
+}
+
+.idk img {
+    padding-left: 18%;
+}
+
+.idk p {
+    padding-left: 10%;
+}
+
+div .Percent {
+    margin-right: 5%;
+}
+
+.Summary_div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.Summary_title {
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+}
+
+.idk {
+    display: flex;
+}
+
+.Percent {
+    color: hsl(241, 27%, 70%);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    margin: 16px 0;
+}
+
+.Percent>span {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.Reaction_div {
+    background-color: #fff6f5;
+}
+
+.Reaction_title {
+    color: hsl(0, 100%, 67%);
+}
+
+.Memory_div {
+    background-color: #fffbf2;
+}
+
+.Memory_title {
+    color: hsl(39, 100%, 56%);
+}
+
+.Verbal_div {
+    background-color: #f2fbfa;
+}
+
+.Verbal_title {
+    color: hsl(166, 100%, 37%);
+}
+
+.Visual_div {
+    background-color: #f3f3fd;
+}
+
+.Visual_title {
+    color: hsl(234, 85%, 45%);
+}
+
+.Summary_title {
+    font-size: 14px;
+}
+
+.Continue_anchor {
+    text-decoration: none;
+    margin-top: 10px;
+    background: hsl(224, 30%, 27%);
+    max-width: 90%;
+    padding: 5% 0;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.Continue_anchor:active {
+   background-color: hsl(241, 81%, 54%);
+   cursor: grabbing;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    left: 25%;
+    right: 25%;
+}
+
+
+.attribution a {
+    color: hsl(241, 81%, 54%);
+}
+
+@media screen and (min-width:426px) {
+
+    body {
+        flex-direction: row;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_div {
+        border-radius: 30px;
+        height: 400px;
+        width: 297px;
+        margin-right: -25px;
+    }
+
+    .Summary_div {
+        padding-left: 50px;
+        height: 400px;
+        width: 297px;
+        box-shadow: 11px 5px 30px -15px rgba(66, 68, 90, 0.5);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .header_title {
+        margin: 30px 0;
+    }
+
+    .Circle_score {
+        width: 160px;
+        height: 160px;
+    }
+
+    .info {
+        max-width: 230px;
+    }
+
+    .Summary_title {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .idk>p {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .svg,
+    .Summary_title,
+    .Percent {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+}

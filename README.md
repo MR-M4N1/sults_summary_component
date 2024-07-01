@@ -16,14 +16,11 @@
 ![](./assets/images/css_overview.JPG)
 ![](./assets/images/html_overview.JPG)
 
-
-
-
 ### Screenshot
 
 ![](./assets/images/screensot_laptop.JPG)
-![](./assets/images/screensot_mobile_1.JPG.JPG)
-![](./assets/images/screensot_mobile_2.JPG.JPG)
+![](./assets/images/screensot_mobile_1.JPG)
+![](./assets/images/screensot_mobile_2.JPG)
 
 
 ### Links
